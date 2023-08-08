@@ -15,6 +15,11 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  var salida = array.map (function (actual) {
+    return(actual[propiedad]);
+  });
+  return salida;
+
 }
 
 // No modifiques nada debajo de esta linea //

@@ -13,6 +13,9 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  var intermedia = num.toString().split('').reverse().join('');
+
+  return (intermedia == num);
 
 }
 
